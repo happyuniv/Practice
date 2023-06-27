@@ -1,0 +1,19 @@
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+section {
+  max-height: 100vh;
+}
+
+h1 {
+  margin: 30px 0;
+}
