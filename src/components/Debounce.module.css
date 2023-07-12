@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.left .input {
+  font-size: 20px;
+  outline: none;
+}
+
+.left .container_list {
+  margin-top: 20px;
+  height: 300px;
+  border: 1px solid lightgray;
+  overflow-y: scroll;
+  overflow-anchor: none;
+}
+
+.left ul {
+  list-style: none;
+  text-align: left;
+}
+
+.left .card {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgray;
+  font-size: 12px;
+}
+
+.left .avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.left .avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.left .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.right p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
