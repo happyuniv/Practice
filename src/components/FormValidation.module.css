@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  width: 300px;
+  text-align: left;
+}
+
+.container label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.container input {
+  padding: 5px;
+}
+
+.container p {
+  color: rgb(239, 85, 85);
+  font-size: 12px;
+}
