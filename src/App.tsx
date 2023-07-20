@@ -3,6 +3,7 @@ import InfiniteScroll from './components/InfiniteScroll'
 import Debounce from './components/Debounce'
 import Throttle from './components/Throttle'
 import FormValidation from './components/FormValidation'
+import Skeleton from './components/Skeleton'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Debounce />
       <Throttle />
       <FormValidation />
+      <Skeleton />
     </div>
   )
 }
