@@ -4,6 +4,7 @@ import Debounce from './components/Debounce'
 import Throttle from './components/Throttle'
 import FormValidation from './components/FormValidation'
 import Skeleton from './components/Skeleton'
+import Carousel from './components/Carousel'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Throttle />
       <FormValidation />
       <Skeleton />
+      <Carousel />
     </div>
   )
 }
