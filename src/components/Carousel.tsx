@@ -86,7 +86,7 @@ export default function Carousel() {
                 }px)`,
               }}
             >
-              {sample.map((item, index) => (
+              {sample.map((item) => (
                 <div className={styles.item}>{item.value}</div>
               ))}
             </div>

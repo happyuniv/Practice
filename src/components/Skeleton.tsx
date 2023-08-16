@@ -59,7 +59,7 @@ export default function Skeleton() {
                 </div>
               ))}
           {!loading &&
-            users.slice(0, 3).map((user, index) => (
+            users.slice(0, 3).map((user) => (
               <div className={styles.card}>
                 <div className={styles.avatar}>
                   <img src={user.picture.medium} alt='' />
